@@ -9,3 +9,11 @@
 
 - need SQL server connection info
 - add to services
+
+# setup table relationship
+
+- edit `Model` class, add foreign key and etc.
+- add `Model_Model` class to `many-to-many` relationship
+- edit `DbContext`
+  - setup relationship
+  - add table name
