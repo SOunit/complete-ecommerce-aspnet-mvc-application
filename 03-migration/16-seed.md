@@ -1,0 +1,3 @@
+- create `AppDbInitializer` class file
+- add data
+- call `Seed` method in `AppDbInitializer` class from `Startup.cs`
