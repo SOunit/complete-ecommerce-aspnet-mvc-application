@@ -17,3 +17,15 @@
 - edit `DbContext`
   - setup relationship
   - add table name
+
+# Task
+
+- Task is for async
+
+```
+public async Task<IActionResult> Index()
+{
+    var allProducers = await _context.Producers.ToListAsync();
+    return View(allProducers);
+}
+```
